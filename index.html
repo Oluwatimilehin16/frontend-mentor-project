@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social link Profile</title>
+    <style>
+        *{
+      margin: 0; 
+      padding: 0;
+      box-sizing: border-box;
+        }
+        #app-holder{
+           width:100%;
+            height:auto;
+        }
+        #app{
+           width:100%;
+            height:100vh;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background-color: hsl(0,0%,8%);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        #img{
+            border-radius:50%;
+            width:90px;
+            height: 90px;
+        }
+      
+        #box{
+            justify-content: center;
+            width:350px;
+            height:auto;
+            background: hsl(0,0%,12%);
+            border-radius: 8px;
+            justify-content: center;
+            align-items:center;
+            padding: 30px;
+        }
+        
+        #img-box{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            padding-top: 40px;
+        }
+        #general{
+            justify-content: center;
+            display: flex;
+           flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            
+        }
+        #name{
+            color: white;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        #location{
+            color:hsl(75,94%,57%);;
+            font-size: 14px;
+            font-weight: 50;
+            margin-top: 5px;
+        }
+        #skills{
+            color: white;
+            margin-top: 16px;
+            font-size:14px;
+            margin-bottom: 16px;
+        }
+        #profile-list{
+            display: flex;
+            justify-content: center;
+           flex-direction: column;
+            align-items: center;
+            
+        }
+        #profile-list>a{
+            text-decoration: none;
+            text-align: center;
+            align-items: center;
+            color:white;
+            width:300px;
+            height:50px;
+            border-radius: 5px;
+           margin-bottom: 10px;
+            background-color: hsl(0,0%,20%);;
+            padding-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="app-holder">
+        <div id="app">
+            <div id="box-container">
+                <div id="box">
+                    <div id="img-box">
+                    <img src="asset/profile-pic.jpg" id="img">
+                </div>
+                <div id="general"> 
+                    <div id="name">
+                    <p>Oluwatimilehin Pelumi</p>
+                </div>
+                <div>
+                    <p id="location">Lagos,Nigeria</p>
+                </div>
+                <div id="skills">
+                    <p>"Front-end developer and a ui ux designer"</p>
+                </div>
+                </div>
+                    <div id="profile-list">
+                        <a href="https://github.com/Oluwatimilehin16"  target="_blank">GitHub</a>
+                        <a href="">Frontend Mentor</a>
+                        <a href="https://www.linkedin.com/in/pelumi-oluwatimilehin-a4793a298/"  target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com/PelumiOluwatim2/" target="_blank">Twitter</a>
+                        <a href="https://www.instagram.com/_pelumi.ii/" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
